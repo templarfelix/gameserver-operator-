@@ -1,0 +1,7 @@
+name: gameserver-operator-example-gke
+runtime: go
+description: Infra example for google
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: google-native-go
