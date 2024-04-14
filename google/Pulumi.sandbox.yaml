@@ -1,2 +1,10 @@
 config:
-  google-native:project: sandbox
+  gameserver-operator-example-gke:clusterName: gameserver-operator
+  gameserver-operator-example-gke:firewallPorts:
+    - 27015
+    - 27016
+    - 2302
+    - 2304
+    - 2306
+  gameserver-operator-example-gke:region: southamerica-east1
+  gcp:project: sandbox-415921
